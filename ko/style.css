@@ -1,0 +1,58 @@
+#first nav img
+{
+  width: 120px;
+}
+
+#first nav li
+{
+  margin:20px 20px;
+}
+
+
+#intro .jumbotron
+{
+    height: 60vh;
+    margin-bottom:0px;
+}
+
+#intro h1
+{
+    font-size: 50px;
+    font-weight:bold;
+    line-height: 1.5;
+}
+p.lead
+{
+  color:black
+}
+#intro .container
+{
+  max-width:800px ;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-80%); /*給解碼器(ie)看的*/
+  transform: translateY(-80%);
+
+}
+#second h2.slogan /*這裡若直接要用section改的話只能寫padding改,margin只給元件*/
+{
+  margin: 50px 50px;
+  font-weight: bold;
+}
+
+p
+{
+  color:grey
+}
+#second img.monster
+{
+  width: 170px;
+  margin-bottom: 13px;
+  border-radius: 100%;
+}
+
+#third h1.news
+{
+  padding-top:100 px;
+  font-weight: bold;
+}
